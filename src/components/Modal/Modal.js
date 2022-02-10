@@ -11,6 +11,7 @@ const Background = styled.div`
 	height: 100%;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.75);
+	z-index: 1;
 	transition: opacity ${(props) => props.fadeDuration};
 	&.fadeModal-enter {
 		opacity: 0;
